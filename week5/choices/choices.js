@@ -45,7 +45,7 @@ function Scene(sceneText, options, nextScenes, x) {
 
     for (var i = 0; i < options.length; i++) {
       text('OPTION ' + (i + 1) + ': ' + this.options[i], 150, 200 + i * 50);
-      ellipse(this.x, 200, 50,50);
+      ellipse(this.x, 400, 50,50);
     }
   }
 }
