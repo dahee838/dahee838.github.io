@@ -9,7 +9,7 @@
       "colorR": 2,
       "colorG": 95,
       "colorB": 244
-      // "scale": 50
+
 
 
     },
@@ -23,7 +23,7 @@
       "colorR": 16,
       "colorG": 90,
       "colorB": 209
-      // "scale": 50
+
 
     },
     {
@@ -35,7 +35,7 @@
       "colorR": 135,
       "colorG": 13,
       "colorB": 6
-      // "scale": 60
+
 
     },
     {
@@ -47,7 +47,6 @@
       "colorR": 117,
       "colorG": 149,
       "colorB": 181
-      // "scale": 40
 
     },
     {
@@ -59,7 +58,7 @@
       "colorR": 255,
       "colorG": 10,
       "colorB": 10
-      // "scale": 90
+
     }
   ]
 }

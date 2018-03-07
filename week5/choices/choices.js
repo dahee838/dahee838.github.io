@@ -23,7 +23,7 @@ function draw() {
 
 function CreateScenesFromData(data) {
   for (var i = 0; i < data.length; i++) {
-    scenes.push(new Scene(data[i].sceneText, data[i].options, data[i].nextScenes, data[i].x,data[i].y,data[i].colorR,data[i].colorG,data[i].colorB,))
+    scenes.push(new Scene(data[i].sceneText, data[i].options, data[i].nextScenes, data[i].x, data[i].y, data[i].colorR, data[i].colorG, data[i].colorB,))
   }
 }
 
@@ -35,7 +35,6 @@ function Scene(sceneText, options, nextScenes, x,y, colorR,colorG,colorB) {
   this.colorR = colorR;
   this.colorG = colorG;
   this.colorB = colorB;
-  // this.size = size;
   this.x = x;
   this.y = y;
 
