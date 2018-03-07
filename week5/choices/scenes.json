@@ -6,54 +6,60 @@
       "nextScenes": [1],
       "x": 600,
       "y": 350,
-      "colorR": 0,
-      "colorG": 72,
-      "colorB": 188
+      "colorR": 2,
+      "colorG": 95,
+      "colorB": 244,
+      "scale": 50
+
 
     },
 
     {
-      "sceneText": "1Don't irritate the ball.",
+      "sceneText": "Don't irritate the ball.",
       "options": ["Imma do it", "ok"],
       "nextScenes": [2, 3],
       "x": 600,
       "y": 350,
       "colorR": 16,
       "colorG": 90,
-      "colorB": 209
+      "colorB": 209,
+      "scale": 50
 
     },
     {
-      "sceneText": "2Ok the ball is annoyed",
+      "sceneText": "Ok the ball is annoyed",
       "options": ["Ha, so?", "oh, sorry"], 
       "nextScenes": [3, 4], 
       "x": 600,
       "y": 250,
-      "colorR": 40,
-      "colorG": 225,
-      "colorB": 237
+      "colorR": 135,
+      "colorG": 13,
+      "colorB": 6,
+      "scale": 60
 
     },
     {
-      "sceneText": "3The ball is bored.",
+      "sceneText": "The ball is bored.",
       "options": ["STABBY STABBY HELLO", "At least it's not mad"],
       "nextScenes": [4, 0],
-      "x": 600,
+      "x": 550,
       "y": 450,
-      "colorR": 58,
-      "colorG": 128,
-      "colorB": 242
+      "colorR": 117,
+      "colorG": 149,
+      "colorB": 181,
+      "scale": 40
 
     },
     {
-      "sceneText": "4BALL IS ANGRY",
+      "sceneText": "BALL IS ANGRY",
       "options": ["SHIT IM SORRY FORGIVE ME", "Dang sorry...", "Aight..", "HIDE."],
       "nextScenes": [0, 1, 2, 3],
       "x": 700,
       "y": 450,
-      "colorR": 87,
-      "colorG": 249,
-      "colorB": 249
+      "colorR": 255,
+      "colorG": 10,
+      "colorB": 10,
+      "scale": 90
     }
   ]
 }
