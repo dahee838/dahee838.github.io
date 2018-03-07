@@ -13,8 +13,8 @@
     },
 
     {
-      "sceneText": "1Do you want to move it up or down?",
-      "options": ["Move up", "Move down."],
+      "sceneText": "1Don't irritate the ball.",
+      "options": ["Imma do it", "ok"],
       "nextScenes": [2, 3],
       "x": 600,
       "y": 350,
@@ -24,8 +24,8 @@
 
     },
     {
-      "sceneText": "2Now it's up. Do you want to move it left or right?",
-      "options": ["Left", "Right"], 
+      "sceneText": "2Ok the ball is annoyed",
+      "options": ["Ha, so?", "oh, sorry"], 
       "nextScenes": [3, 4], 
       "x": 600,
       "y": 250,
@@ -35,8 +35,8 @@
 
     },
     {
-      "sceneText": "3You moved it down. Do you want to move it left or right?",
-      "options": ["Left", "Right"],
+      "sceneText": "3The ball is bored.",
+      "options": ["STABBY STABBY HELLO", "At least it's not mad"],
       "nextScenes": [4, 0],
       "x": 600,
       "y": 450,
@@ -46,8 +46,8 @@
 
     },
     {
-      "sceneText": "4You moved it left. Wise choice.",
-      "options": ["Start over", "Move left again", "Move right", "move up"],
+      "sceneText": "4BALL IS ANGRY",
+      "options": ["SHIT IM SORRY FORGIVE ME", "Dang sorry...", "Aight..", "HIDE."],
       "nextScenes": [0, 1, 2, 3],
       "x": 700,
       "y": 450,

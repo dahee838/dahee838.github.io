@@ -41,7 +41,7 @@ function Scene(sceneText, options, nextScenes, x,y, colorR,colorG,colorB) {
   this.display = function() 
   {
 
-    fill(255);
+    fill(0);
     textSize(42);
     text(this.sceneText, 100, 100);
 
