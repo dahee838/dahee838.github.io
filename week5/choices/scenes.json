@@ -28,7 +28,7 @@
     },
     {
       "sceneText": "Ok the ball is annoyed",
-      "options": ["Ha, so?", "oh, sorry"], 
+      "options": ["oh, sorry", "Ha, so?"], 
       "nextScenes": [3, 4], 
       "x": 600,
       "y": 250,
