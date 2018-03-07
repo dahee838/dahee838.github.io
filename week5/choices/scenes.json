@@ -4,7 +4,8 @@
       "sceneText": "The orcs are after you!",
       "options": ["Press 1 to start."],
       "nextScenes": [1],
-      "x": 200
+      "x": 200,
+      "y": 400
 
     },
 
@@ -12,28 +13,32 @@
       "sceneText": "The orcs are hungry. What do you do?",
       "options": ["RUN!!!!!", "Give them all your food."],
       "nextScenes": [2, 3],
-      "x": 300
+      "x": 300,
+      "y": 500
 
     },
     {
       "sceneText": "You started running, but you're getting tired...",
       "options": ["Hide under a bush", "Turn and start fighting!!"], 
       "nextScenes": [3, 4], 
-      "x": 400
+      "x": 400,
+      "y": 400
 
     },
     {
       "sceneText": "The orcs passed.You survived!",
       "options": ["Keep foraging.", "Stop and settle."],
       "nextScenes": [4, 0],
-      "x": 500
+      "x": 500,
+      "y": 500
 
     },
     {
       "sceneText": "The orcs have held you ",
       "options": ["Fight through!", "Be cooperative and go to their camp.", "Run as fast as you can!", "Jump in the river and hide!"],
       "nextScenes": [0, 1, 2, 3],
-      "x": 600
+      "x": 600,
+      "y": 400
     }
   ]
 }

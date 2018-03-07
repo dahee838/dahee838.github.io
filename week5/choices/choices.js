@@ -23,16 +23,17 @@ function draw() {
 
 function CreateScenesFromData(data) {
   for (var i = 0; i < data.length; i++) {
-    scenes.push(new Scene(data[i].sceneText, data[i].options, data[i].nextScenes, data[i].x))
+    scenes.push(new Scene(data[i].sceneText, data[i].options, data[i].nextScenes, data[i].x,data[i].y))
   }
 }
 
 
-function Scene(sceneText, options, nextScenes, x) {
+function Scene(sceneText, options, nextScenes, x,y) {
   this.sceneText = sceneText;
   this.options = options;
   this.nextScenes = nextScenes;
   this.x = x;
+  this.y = y;
 
   this.display = function() 
   {
@@ -45,7 +46,8 @@ function Scene(sceneText, options, nextScenes, x) {
 
     for (var i = 0; i < options.length; i++) {
       text('OPTION ' + (i + 1) + ': ' + this.options[i], 150, 200 + i * 50);
-      ellipse(this.x, 400, 50,50);
+      noStroke();
+      ellipse(this.x, this.y, 50,50);
     }
   }
 }
