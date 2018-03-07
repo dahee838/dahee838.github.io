@@ -1,44 +1,59 @@
 {
   "scenes": [
     {
-      "sceneText": "The orcs are after you!",
+      "sceneText": "Ball.",
       "options": ["Press 1 to start."],
       "nextScenes": [1],
-      "x": 200,
-      "y": 400
-
-    },
-
-    {
-      "sceneText": "The orcs are hungry. What do you do?",
-      "options": ["RUN!!!!!", "Give them all your food."],
-      "nextScenes": [2, 3],
-      "x": 300,
-      "y": 500
-
-    },
-    {
-      "sceneText": "You started running, but you're getting tired...",
-      "options": ["Hide under a bush", "Turn and start fighting!!"], 
-      "nextScenes": [3, 4], 
-      "x": 400,
-      "y": 400
-
-    },
-    {
-      "sceneText": "The orcs passed.You survived!",
-      "options": ["Keep foraging.", "Stop and settle."],
-      "nextScenes": [4, 0],
-      "x": 500,
-      "y": 500
-
-    },
-    {
-      "sceneText": "The orcs have held you ",
-      "options": ["Fight through!", "Be cooperative and go to their camp.", "Run as fast as you can!", "Jump in the river and hide!"],
-      "nextScenes": [0, 1, 2, 3],
       "x": 600,
-      "y": 400
+      "y": 350,
+      "colorR": 0,
+      "colorG": 72,
+      "colorB": 188
+
+    },
+
+    {
+      "sceneText": "1Do you want to move it up or down?",
+      "options": ["Move up", "Move down."],
+      "nextScenes": [2, 3],
+      "x": 600,
+      "y": 350,
+      "colorR": 16,
+      "colorG": 90,
+      "colorB": 209
+
+    },
+    {
+      "sceneText": "2Now it's up. Do you want to move it left or right?",
+      "options": ["Left", "Right"], 
+      "nextScenes": [3, 4], 
+      "x": 600,
+      "y": 250,
+      "colorR": 40,
+      "colorG": 225,
+      "colorB": 237
+
+    },
+    {
+      "sceneText": "3You moved it down. Do you want to move it left or right?",
+      "options": ["Left", "Right"],
+      "nextScenes": [4, 0],
+      "x": 600,
+      "y": 450,
+      "colorR": 58,
+      "colorG": 128,
+      "colorB": 242
+
+    },
+    {
+      "sceneText": "4You moved it left. Wise choice.",
+      "options": ["Start over", "Move left again", "Move right", "move up"],
+      "nextScenes": [0, 1, 2, 3],
+      "x": 700,
+      "y": 450,
+      "colorR": 87,
+      "colorG": 249,
+      "colorB": 249
     }
   ]
 }
