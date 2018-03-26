@@ -1,0 +1,53 @@
+{
+  "scenes": [
+    {
+      "sceneText": "THE SAD POTATO.",
+      "thatOneBit": "Press 1 and 2 to navigate",
+      "options": ["Page 1"],
+      "nextScenes": [1],
+      "x": 300,
+      "y": 350
+    },
+    {
+      "sceneText": "There was once a sad potato. He wanted it to be day.",
+      "thatOneBit": "Use the first slider to bring down the sun.",
+      "options": ["Next page", "Previous page"],
+      "nextScenes": [2, 0],
+      "x": 330,
+      "y": 350
+    },
+    {
+      "sceneText": "The potato wanted clear blue skies.",
+      "thatOneBit": "Click the mouse until the sky is clear",
+      "options": ["Next page", "Previous page"], 
+      "nextScenes": [3, 1],
+      "x": 360,
+      "y": 350
+    },
+    {
+      "sceneText": "The potato wanted a nice house.",
+      "thatOneBit": "Use the second slider to build the potato a house.",
+      "options": ["Next page", "Previous page"],
+      "nextScenes": [4, 2],
+      "x": 390,
+      "y": 350
+    },
+    {
+      "sceneText": "The potato realized material goods aren't the key to happiness.",
+      "thatOneBit": " ",
+      "options": ["Next page", "Previous page"],
+      "nextScenes": [5, 3],
+      "x": 410,
+      "y": 350
+    },
+    {
+      "sceneText": "The potato was happy.",
+      "thatOneBit": "THE END.",
+      "options": ["Back to the beginning", "Previous page"],
+      "nextScenes": [0, 4],
+      "x": 440,
+      "y": 350
+
+    }
+  ]
+}
