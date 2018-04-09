@@ -213,6 +213,8 @@ switch (thisScene) {
    ellipse(1300,220,80,40);
    ellipse(1300,210,80,40);
    ellipse(1300,220,80,40);
+
+   
     scenes[currentScene].display();
       break;
     default:
