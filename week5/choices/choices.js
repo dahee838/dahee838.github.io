@@ -28,7 +28,7 @@ function CreateScenesFromData(data) {
 }
 
 
-function Scene(sceneText, options, nextScenes, x,y) {
+function Scene(sceneText, options, nextScenes, x,y, colorR, colorG, colorB) {
   this.sceneText = sceneText;
   this.options = options;
   this.nextScenes = nextScenes;
