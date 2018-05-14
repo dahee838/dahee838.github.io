@@ -673,9 +673,6 @@ function Bryan() {
       this.height = 0;
     }
 
-    if (!hitColliderSFX.isPlaying()) {
-      hitColliderSFX.play();
-    }
   }
 }
 
@@ -1041,11 +1038,7 @@ function Sarah() {
      other.pos.x = random(width/2, width);
    }
 
-   
-
-   if (!hitColliderSFX.isPlaying()) {
-    hitColliderSFX.play();
-  }
+  
 }
 }
 
