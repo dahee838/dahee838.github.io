@@ -273,16 +273,6 @@ function mousePressed() {
 }
 
 
-
-
-
-
-
-
-
-
-
-
 function checkCollisionWithBall(ball, other) {
   if (ball.pos.x + ball.width/2 > other.pos.x && 
       ball.pos.x + ball.width/2 < other.pos.x + other.width && 
@@ -417,6 +407,7 @@ function keyPressed() {
         break;
       case 2:
         colliders.push(new Ellie());
+        colliders.push(new Dahee());
         break;
       case 3:
         colliders.push(new Yanwen());
@@ -510,6 +501,7 @@ function drawCollide(whichCollide) {
   switch (currentCollider) {
     case collideState.ZERO:
       colliders.push(new Ellie());
+      colliders.push(new Dahee());
       break;
     case collideState.ONE:
       colliders.push(new Yizhou());
@@ -1070,6 +1062,48 @@ function Jackie() {
     other.pos.x += other.vel.x;
     other.vel.y = -other.vel.y;
     other.pos.y += other.vel.y;
+  }
+}
+
+
+function Dahee() {
+  this.speed = 1;
+  this.angle = 0;
+  this.vel = createVector(0, cos(this.angle) * this.speed);
+  this.width = 10;
+  this.height = 10;
+  this.pos = createVector(random(600, 1000)), random(random(400, 1000));
+
+  this.update = function() {
+    this.angle = (this.angle + 0.05) % TWO_PI;
+    this.vel.y = sin(this.angle) * this.speed;
+    this.pos.add(this.vel);
+  }
+
+  this.display = function() {
+    fill(250,0,200);
+    rect(this.pos.x, this.pos.y, this.width, this.height);
+    rect(this.pos.x, this.pos.y, this.width, this.height);
+    rect(this.pos.x, this.pos.y, this.width, this.height);
+    rect(this.pos.x, this.pos.y, this.width, this.height);
+    rect(this.pos.x, this.pos.y, this.width, this.height);
+  }
+
+  this.collided = function(other) {
+    if (other.speed > 1) {
+      other.speed -= 0.5;
+    }
+
+    other.angle = random(TWO_PI);
+    other.vel.x = cos(other.angle) * other.speed;
+    other.vel.y = sin(other.angle) * other.speed;
+
+    if (this.height > 0) {
+      this.pos.y += 20;
+      this.height -= 40;      
+    } else {
+      this.height = 0;
+    }
   }
 }
 
