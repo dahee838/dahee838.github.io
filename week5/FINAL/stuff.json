@@ -1,0 +1,22 @@
+{
+  "scenes": [
+    {
+      "sceneText": "THE POTATO'S DREAM.",
+      "Red": 300,
+      "Green": 350,
+      "Blue": 350
+    },
+    {
+      "sceneText": "There was once a sleeping potato. He had some weird ass dreams.",
+      "Red": 300,
+      "Green": 350,
+      "Blue": 350
+    },
+    {
+      "sceneText": "Shoot sunlight at the potato to make it happy.",
+      "Red": 300,
+      "Green": 350,
+      "Blue": 350
+    }
+  ]
+}
